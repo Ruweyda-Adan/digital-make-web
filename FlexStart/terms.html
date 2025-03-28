@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #333;
+            --light-gray: #f8fafc;
+            --medium-gray: #e2e8f0;
+            --dark-gray: #64748b;
+            --max-width: 1200px;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-gray);
+        }
+
+        header {
+            background-color: white;
+            box-shadow: var(--box-shadow);
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 0;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin: 1.5rem 0 1rem;
+            font-weight: 600;
+        }
+
+        main {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--medium-gray);
+        }
+
+        section:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            color: var(--dark-gray);
+            font-size: 0.9rem;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Back Button Styles */
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 1rem;
+            background-color: var(--medium-gray);
+            color: var(--text-color);
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: var(--dark-gray);
+            color: white;
+            text-decoration: none;
+        }
+
+        .back-button svg {
+            margin-right: 0.5rem;
+            width: 1em;
+            height: 1em;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.3rem;
+            }
+            
+            main {
+                padding: 1.5rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .back-button {
+                align-self: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="javascript:history.back()" class="back-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                    Back
+                </a>
+                <h1>Terms of Service</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to our website. By accessing or using our services, you agree to be bound by these Terms of Service.</p>
+        </section>
+
+        <section>
+            <h2>2. Use of Our Services</h2>
+            <p>You agree to use our website in compliance with all applicable laws and regulations. Unauthorized use or misuse of our platform is strictly prohibited.</p>
+        </section>
+
+        <section>
+            <h2>3. User Responsibilities</h2>
+            <p>Users are responsible for maintaining the confidentiality of their accounts and ensuring that their actions do not violate any terms.</p>
+        </section>
+
+        <section>
+            <h2>4. Intellectual Property</h2>
+            <p>All content, logos, and materials on this site are the property of our company and cannot be used without permission.</p>
+        </section>
+
+        <section>
+            <h2>5. Termination</h2>
+            <p>We reserve the right to suspend or terminate user access if any violations of these terms occur.</p>
+        </section>
+
+        <section>
+            <h2>6. Changes to Terms</h2>
+            <p>We may update these Terms of Service from time to time. Continued use of the website signifies acceptance of any changes.</p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any questions about these terms, you can contact us at <a href="Farahfatma53@gmail.com">Farahfatma53@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Forge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
